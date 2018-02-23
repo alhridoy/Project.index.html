@@ -1,0 +1,207 @@
+a:active,
+a:focus, button:focus, .btn:focus,
+input:focus, textarea:focus, select:focus, .form-control:focus {
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+ * {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto
+}
+a {
+    color: #2e2e2e;
+}
+a:hover{
+    color: none;
+    text-decoration: none;
+}
+
+*i{
+    display: inline-block;
+    font: normal normal normal 14px/1;
+    text-rendering: auto;
+
+}
+button{
+    color: #7e7e7e;
+}
+button:hover{
+    color: #2e2e2e;
+}
+.btn-default {
+    color: #7e7e7e;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-default:hover {
+    color: #2e2e2e;
+    background-color: transparent;
+}
+.btn{
+    border-radius: 0;
+}
+body.body-wrapper {
+    background-color: #fff;
+}
+
+body {
+    color: #2e2e2e;
+    font-family: 'Hind Guntur',sans-serif;
+    font-size: 16px;
+     -webkit-font-smoothing: antialiased;
+     font-weight: 400;
+}
+.navbar-container {
+    position: relative;
+    height: 70px;
+    border-bottom: solid 1px #eceff0;
+}
+
+.btn-menu-toggle {
+    display: block;
+    margin-top: 26px;
+}
+.btn-menu-toggle i {
+    font-size: 24px;
+}
+.navbar-brand {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 26px;
+    text-transform: capitalize;
+    padding: 0;
+}
+ul.menu {
+    position: relative;
+    margin-bottom: 0;
+    z-index: 10;
+    margin-top: 25px;
+}
+.menu li a {
+    color: #7e7e7e;
+}
+
+.menu li a:hover {
+    color: #2e2e2e;
+}
+.topsearch>i {
+    display: none;
+}
+.topsearch {
+    position: relative;
+    margin-top: 15px;
+}
+.topsearch .input-group {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 4px;
+    max-width: 90%;
+    outline: none;
+    text-align: center;
+}
+.account{
+    margin-top: 15px;
+
+}
+/*Video*/
+
+.content-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 40px;
+    background-color: #fbfdfe;
+}
+.wrapper {
+  height: 444px;
+  width: 588px;
+  position: relative;
+}
+.wrapper .video {
+  height: 100%;
+  max-height: 720px;
+  width: 100%;
+  max-width: 1280px;
+  background-color: #111;
+}
+.wrapper .video video {
+  height: 100%;
+  width: 100%;
+}
+.wrapper .video video::-webkit-media-controls-enclosure, .wrapper .video video::-webkit-media-controls {
+  display: none !important;
+}
+.wrapper .video .controls {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(6, 6, 6, 0.8);
+  z-index: 2147483648;
+}
+.wrapper .video .controls .playpause,
+.wrapper .video .controls .volume,
+.wrapper .video .controls .fullscreen {
+  width: 48px;
+  padding: 12px 0;
+  color: #D6D6D6;
+  font-size: 16px;
+  text-align: center;
+}
+.wrapper .video .controls .progress {
+  width: calc(100% - 208px);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 54px;
+  margin: auto;
+  background: transparent;
+}
+.wrapper .video .controls .volume {
+  position: absolute;
+  right: 96px;
+}
+.wrapper .video .controls .volume input {
+  background: transparent;
+  width: 48px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 44px;
+  margin: auto;
+}
+.wrapper .video .controls .fullscreen {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wrapper .text {
+  width: 360px;
+  position: absolute;
+  top: 280px;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  font-size: 48px;
+  text-align: center;
+  font-family: "Roboto Condensed";
+}
+
+.whitespace {
+  height: 40px;
+  position: absolute;
+  bottom: -40px;
+}
